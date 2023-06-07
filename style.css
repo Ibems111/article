@@ -1,0 +1,53 @@
+table, thead {
+    table-layout:fixed;
+    border:2px solid black;
+    border-collapse:collapse;
+    width:100%;
+}
+
+
+table,thead,td,th {
+  border:2px solid black;
+  padding:5px;
+}
+  td{
+    word-wrap:break-word;
+  }
+
+.container {
+  position:relative;
+}
+
+span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%); 
+  font-size:150%;
+  color:white;
+}
+
+#img2 {
+  width:100%;
+  height:auto;
+  margin-top:30px;
+
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+button {
+  border-radius:10px;
+  background:grey;
+  text-align:center;
+  margin-left:80px ;
+  padding:20px;
+  font-size:15px;
+  font-weight:bold;
+}
+a {
+  text-decoration:none;
+  
+}
